@@ -20,6 +20,7 @@ public class Asignatura {
     private final int horas;
 
     @ManyToOne
+    @jakarta.persistence.JoinColumn(name = "imparte")
     private final Profesor profesor;
 
 }

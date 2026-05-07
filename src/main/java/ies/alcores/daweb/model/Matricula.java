@@ -16,6 +16,7 @@ import lombok.RequiredArgsConstructor;
 public class Matricula {
 
     @Id
+    @jakarta.persistence.Column(name = "id_mat")
     private long id;
     private int curso;
     private double notaMedia;
