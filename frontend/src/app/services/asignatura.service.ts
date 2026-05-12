@@ -8,13 +8,13 @@ import { Asignatura } from '../models/asignatura.model';
 })
 export class AsignaturaService {
   private http = inject(HttpClient);
-  private apiUrl = 'http://localhost:8080/asignatura';
+  private baseUrl = 'http://localhost:8080/asignatura';
 
   getAsignaturas(): Observable<Asignatura[]> {
-    return this.http.get<Asignatura[]>(this.apiUrl);
+    return this.http.get<Asignatura[]>(this.baseUrl);
   }
 
   getAsignatura(id: number): Observable<Asignatura> {
-    return this.http.get<Asignatura>(`${this.apiUrl}/${id}`);
+    return this.http.get<Asignatura>(`${this.baseUrl}/${id}`);
   }
 }

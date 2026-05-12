@@ -1,0 +1,38 @@
+<div class="animate-fade-in">
+  <div class="header-actions">
+    <h2>Gestión de Alumnos</h2>
+    <button class="btn btn-primary">
+      <span class="material-icons-round">add</span> Nuevo Alumno
+    </button>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+          <th>iPasen</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let alumno of alumnos">
+          <td>#{{ alumno.id }}</td>
+          <td class="student-name">{{ alumno.nombre }}</td>
+          <td>{{ alumno.apellidos }}</td>
+          <td><span class="badge badge-primary">{{ alumno.ipasen }}</span></td>
+          <td>
+            <button class="btn btn-secondary btn-small">
+              Editar
+            </button>
+          </td>
+        </tr>
+        <tr *ngIf="alumnos.length === 0">
+          <td colspan="5" class="empty-state">No hay alumnos registrados.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

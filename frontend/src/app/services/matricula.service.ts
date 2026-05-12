@@ -8,13 +8,13 @@ import { Matricula } from '../models/matricula.model';
 })
 export class MatriculaService {
   private http = inject(HttpClient);
-  private apiUrl = 'http://localhost:8080/matricula';
+  private baseUrl = 'http://localhost:8080/matricula';
 
   getMatriculas(): Observable<Matricula[]> {
-    return this.http.get<Matricula[]>(this.apiUrl);
+    return this.http.get<Matricula[]>(this.baseUrl);
   }
 
   getMatricula(id: number): Observable<Matricula> {
-    return this.http.get<Matricula>(`${this.apiUrl}/${id}`);
+    return this.http.get<Matricula>(`${this.baseUrl}/${id}`);
   }
 }

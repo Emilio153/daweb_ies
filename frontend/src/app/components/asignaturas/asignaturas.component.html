@@ -1,0 +1,29 @@
+<div class="animate-fade-in">
+  <div class="header-actions">
+    <h2>Gestión de Asignaturas</h2>
+    <button class="btn btn-primary">
+      <span class="material-icons-round">add</span> Nueva Asignatura
+    </button>
+  </div>
+
+  <div class="grid grid-cols-3">
+    <div class="card card-wrapper" *ngFor="let asig of asignaturas">
+      <div>
+        <h3 class="subject-title">{{ asig.nombre }}</h3>
+        <p class="text-muted subject-id">ID: #{{ asig.id }}</p>
+      </div>
+      
+      <div class="card-content">
+        <p><strong>Horas:</strong> {{ asig.horas }}h</p>
+        <p *ngIf="asig.profesor"><strong>Profesor:</strong> {{ asig.profesor.nombre }} {{ asig.profesor.apellidos }}</p>
+        <p *ngIf="!asig.profesor" class="text-muted no-professor">Sin profesor asignado</p>
+      </div>
+      
+      <button class="btn btn-secondary full-width-btn">Editar Asignatura</button>
+    </div>
+  </div>
+  
+  <div *ngIf="asignaturas.length === 0" class="empty-state">
+    <p>No hay asignaturas registradas.</p>
+  </div>
+</div>

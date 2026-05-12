@@ -8,13 +8,13 @@ import { Profesor } from '../models/profesor.model';
 })
 export class ProfesorService {
   private http = inject(HttpClient);
-  private apiUrl = 'http://localhost:8080/profesor';
+  private baseUrl = 'http://localhost:8080/profesor';
 
   getProfesores(): Observable<Profesor[]> {
-    return this.http.get<Profesor[]>(this.apiUrl);
+    return this.http.get<Profesor[]>(this.baseUrl);
   }
 
   getProfesor(id: number): Observable<Profesor> {
-    return this.http.get<Profesor>(`${this.apiUrl}/${id}`);
+    return this.http.get<Profesor>(`${this.baseUrl}/${id}`);
   }
 }
