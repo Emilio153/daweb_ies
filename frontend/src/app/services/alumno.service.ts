@@ -8,13 +8,14 @@ import { Alumno } from '../models/alumno.model';
 })
 export class AlumnoService {
   private http = inject(HttpClient);
-  private apiUrl = 'http://localhost:8080/alumno';
+  private baseUrl = 'http://localhost:8080/alumno';
 
   getAlumnos(): Observable<Alumno[]> {
-    return this.http.get<Alumno[]>(this.apiUrl);
+    return this.http.get<Alumno[]>(this.baseUrl);
   }
 
   getAlumno(id: number): Observable<Alumno> {
-    return this.http.get<Alumno>(`${this.apiUrl}/${id}`);
+    return this.http.get<Alumno>(`${this.baseUrl}/${id}`);
   }
 }
+// 

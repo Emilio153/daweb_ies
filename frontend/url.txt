@@ -1,0 +1,7 @@
+postgresql://instituto_wwnw_user:
+CCY21x6CLdlK0YTKCArlKQOOQ8DKYRnM@dpg-d80pa8v7f7vs73d3o6o0-a.frankfurt-postgres.render.com/instituto_wwnw
+
+nombre usuario: instituto_wwnw_user
+contraseña: CCY21x6CLdlK0YTKCArlKQOOQ8DKYRnM
+url: dpg-d80pa8v7f7vs73d3o6o0-a.frankfurt-postgres.render.com:5432
+nombre DB:instituto_wwnw
