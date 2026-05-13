@@ -1,0 +1,25 @@
+<div class="animate-fade-in">
+  <div class="header-actions">
+    <h2>Gestión de Profesores</h2>
+    <button class="btn btn-primary">Nuevo Profesor</button>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Especialidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let profe of profesores">
+          <td>#{{ profe.id }}</td>
+          <td>{{ profe.nombre }} {{ profe.apellidos }}</td>
+          <td><span class="badge badge-secondary">{{ profe.especialidad }}</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
