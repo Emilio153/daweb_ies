@@ -318,3 +318,77 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-05-13 08:33:05.698 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-05-13 08:33:08.134
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-05-13 08:33:08.298
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (615) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-05-13 08:33:12.410
+!MESSAGE Logback config file: C:\Users\Emilio\Desktop\WORKSPACE\daweb_ies_backup\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-05-13 08:33:12.689
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-05-13 08:33:12.689
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-05-13 08:33:12.926
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-05-13 08:33:12.926
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-13 08:33:15.419
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Emilio'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-05-13 08:34:06.241
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17 RUNNING
+	 at java.base/java.io.WinNTFileSystem.getBooleanAttributes0(Native Method)
+	 at java.base/java.io.WinNTFileSystem.getBooleanAttributes(WinNTFileSystem.java:479)
+	 at java.base/java.io.FileSystem.hasBooleanAttributes(FileSystem.java:125)
+	 at java.base/java.io.File.isDirectory(File.java:867)
+	 at java.base/java.io.File.listFiles(File.java:1355)
+	 at org.eclipse.ui.internal.wizards.datatransfer.expressions.HasFileRecursivelyExpression.evaluate(HasFileRecursivelyExpression.java:84)
+	 at org.eclipse.ui.internal.wizards.datatransfer.ProjectConfiguratorExtensionManager.getAllActiveProjectConfiguratorsUntyped(ProjectConfiguratorExtensionManager.java:103)
+	 at org.eclipse.ui.internal.wizards.datatransfer.ProjectConfiguratorExtensionManager.getAllActiveProjectConfigurators(ProjectConfiguratorExtensionManager.java:148)
+	 at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.getImportProposals(SmartImportJob.java:663)
+	 at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17.run(SmartImportRootWizardPage.java:845)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-05-13 08:34:06.242
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17 RUNNING
+	 at java.base/java.io.WinNTFileSystem.getBooleanAttributes0(Native Method)
+	 at java.base/java.io.WinNTFileSystem.getBooleanAttributes(WinNTFileSystem.java:479)
+	 at java.base/java.io.FileSystem.hasBooleanAttributes(FileSystem.java:125)
+	 at java.base/java.io.File.isDirectory(File.java:867)
+	 at java.base/java.io.File.listFiles(File.java:1355)
+	 at org.eclipse.ui.internal.wizards.datatransfer.expressions.HasFileRecursivelyExpression.evaluate(HasFileRecursivelyExpression.java:84)
+	 at org.eclipse.ui.internal.wizards.datatransfer.ProjectConfiguratorExtensionManager.getAllActiveProjectConfiguratorsUntyped(ProjectConfiguratorExtensionManager.java:103)
+	 at org.eclipse.ui.internal.wizards.datatransfer.ProjectConfiguratorExtensionManager.getAllActiveProjectConfigurators(ProjectConfiguratorExtensionManager.java:148)
+	 at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.getImportProposals(SmartImportJob.java:663)
+	 at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17.run(SmartImportRootWizardPage.java:845)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-05-13 08:34:06.242
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17 RUNNING
+	 at java.base/java.io.WinNTFileSystem.getBooleanAttributes0(Native Method)
+	 at java.base/java.io.WinNTFileSystem.getBooleanAttributes(WinNTFileSystem.java:479)
+	 at java.base/java.io.FileSystem.hasBooleanAttributes(FileSystem.java:125)
+	 at java.base/java.io.File.exists(File.java:836)
+	 at org.eclipse.ui.internal.wizards.datatransfer.expressions.HasFileRecursivelyExpression.evaluate(HasFileRecursivelyExpression.java:81)
+	 at org.eclipse.ui.internal.wizards.datatransfer.ProjectConfiguratorExtensionManager.getAllActiveProjectConfiguratorsUntyped(ProjectConfiguratorExtensionManager.java:103)
+	 at org.eclipse.ui.internal.wizards.datatransfer.ProjectConfiguratorExtensionManager.getAllActiveProjectConfigurators(ProjectConfiguratorExtensionManager.java:148)
+	 at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.getImportProposals(SmartImportJob.java:663)
+	 at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17.run(SmartImportRootWizardPage.java:845)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
