@@ -1,3 +1,2 @@
-2026/05/20-10:39:08.420 3a78 Reusing MANIFEST C:\Users\Emilio\Desktop\WORKSPACE\daweb_ies_backup\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001
-2026/05/20-10:39:08.421 3a78 Recovering log #3
-2026/05/20-10:39:08.423 3a78 Reusing old log C:\Users\Emilio\Desktop\WORKSPACE\daweb_ies_backup\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/000003.log 
+2026/05/20-19:55:54.808 6234 Creating DB D:\JAVA\daweb_ies\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage since it was missing.
+2026/05/20-19:55:54.817 6234 Reusing MANIFEST D:\JAVA\daweb_ies\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001

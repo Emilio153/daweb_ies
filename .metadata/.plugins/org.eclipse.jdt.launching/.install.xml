@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
     <entry loc="C:\Users\Emilio\Downloads\eclipse-jee-2025-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre" stamp="1758537429423"/>
+    <entry loc="C:\Users\tukaa\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638\jre" stamp="1773648920536"/>
+    <entry loc="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot" stamp="1773648705550"/>
     <entry loc="C:\Users\Emilio\Downloads\eclipse-jee-2025-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412" stamp="1758537426443"/>
-    <entry loc="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot" stamp="1758537136878"/>
+    <entry loc="C:\Users\tukaa\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638" stamp="1773648920538"/>
+    <entry loc="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot" stamp="1761089655334"/>
+    <entry loc="C:\Program Files\Java\jdk-21.0.10" stamp="1776194674812"/>
 </dirs>
