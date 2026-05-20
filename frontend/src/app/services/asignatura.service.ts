@@ -10,7 +10,7 @@ export class AsignaturaService {
   private http = inject(HttpClient);
   private baseUrl = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
     ? 'http://localhost:8082/asignatura'
-    : 'https://daweb-ies.onrender.com/asignatura';
+    : 'https://daweb-ies-arz8.onrender.com/asignatura';
 
   getAsignaturas(): Observable<Asignatura[]> {
     return this.http.get<Asignatura[]>(this.baseUrl);
