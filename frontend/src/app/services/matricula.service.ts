@@ -8,7 +8,9 @@ import { Matricula } from '../models/matricula.model';
 })
 export class MatriculaService {
   private http = inject(HttpClient);
-  private baseUrl = 'http://localhost:8080/matricula';
+  private baseUrl = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+    ? 'http://localhost:8080/matricula'
+    : 'https://daweb-ies.onrender.com/matricula';
 
   getMatriculas(): Observable<Matricula[]> {
     return this.http.get<Matricula[]>(this.baseUrl);

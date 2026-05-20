@@ -8,7 +8,9 @@ import { Alumno } from '../models/alumno.model';
 })
 export class AlumnoService {
   private http = inject(HttpClient);
-  private baseUrl = 'http://localhost:8080/alumno';
+  private baseUrl = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+    ? 'http://localhost:8080/alumno'
+    : 'https://daweb-ies.onrender.com/alumno';
 
   getAlumnos(): Observable<Alumno[]> {
     return this.http.get<Alumno[]>(this.baseUrl);

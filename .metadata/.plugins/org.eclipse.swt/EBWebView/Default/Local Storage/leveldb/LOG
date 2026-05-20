@@ -1,2 +1,3 @@
-2026/05/05-12:20:09.402 1ce8 Creating DB C:\Users\Emilio\Desktop\WORKSPACE\daweb_ies\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb since it was missing.
-2026/05/05-12:20:09.419 1ce8 Reusing MANIFEST C:\Users\Emilio\Desktop\WORKSPACE\daweb_ies\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/05/20-10:39:08.356 3a78 Reusing MANIFEST C:\Users\Emilio\Desktop\WORKSPACE\daweb_ies_backup\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/05/20-10:39:08.361 3a78 Recovering log #3
+2026/05/20-10:39:08.363 3a78 Reusing old log C:\Users\Emilio\Desktop\WORKSPACE\daweb_ies_backup\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 
